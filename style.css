@@ -1,0 +1,124 @@
+.logo{
+    width: 130px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.carousel-caption{
+    margin: 12% auto;
+    font-family:  var(heading-font-family);;
+}
+
+.navbar{
+    justify-content: space-around;
+}
+
+.collapse ul{
+    margin-left: 15px;
+}
+
+.collapse ul li{
+    margin-inline-start: 5px;
+}
+
+.button{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.btn-exp {
+    margin-left: 41%;
+    margin-top: 3%;
+}
+
+.button li{
+    margin-inline-start: 10px;
+}
+
+.button img{
+    width: 20px;
+}
+
+.carousel-item img{
+    width: 100% !important;
+    margin: -10% 0;
+}
+
+.carousel-inner h2{
+    color: white;
+}
+
+.carousel-caption p{
+    color: #000;
+}
+
+.portfolio .card{
+    box-shadow: 15px 15px 40px #fff
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-light-primary {
+    background: var(--bs-primary-bg-subtle);
+    border-color: var(--bs-primary-bg-subtle);
+    color: var(--bs-primary);
+}
+.btn {
+    padding: 10px 20px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    animation-delay: 0.7s;
+    animation-duration: 0.5s;
+    position: relative;
+}
+.fw-medium {
+    font-weight: 500!important;
+}
+.card-section{
+    position:static !important;
+    margin-top: 60% !important;
+
+}
+.card{
+    flex-direction: row !important;
+    width: auto !important;
+}
+.position-absolute{
+    position: relative !important;
+}
+.img-set{
+    width: 100%;
+}
+.fill-primary {
+    position: absolute;
+    left: 19%;
+    bottom: -20%;
+    opacity: 40%;
+    fill: #cd2c22;
+    z-index: -1;
+}
+.bg-body {
+    background-color: #fff!important;
+    position: absolute !important;
+    z-index: 1;
+    top: 408px;
+    width: 55%;
+}
+
+.footer-widget ul li{
+    color: silver;
+    list-style: none !important;
+    margin-left: -30px;
+}
+.footer-widget ul li a{
+    text-decoration: none !important;
+    color: gray;
+}
